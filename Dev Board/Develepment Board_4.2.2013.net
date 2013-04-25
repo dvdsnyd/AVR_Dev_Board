@@ -1,0 +1,359 @@
+# EESchema Netlist Version 1.1 created  4/2/2013 9:14:03 PM
+(
+ ( /515B8D24 $noname  P12 FTDI {Lib=CONN_6}
+  (    1 GND )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+ )
+ ( /5154F522 $noname  P6 CONN_10 {Lib=CONN_10}
+  (    1 GND )
+  (    2 VCC )
+  (    3 N-000045 )
+  (    4 /PD7 )
+  (    5 GND )
+  (    6 /PD6 )
+  (    7 /PD5 )
+  (    8 /PD4 )
+  (    9 /PD3 )
+  (   10 /PD2 )
+ )
+ ( /5154F317 $noname  K1 14.7456_Mhz {Lib=CONN_3}
+  (    1 /XTAL2 )
+  (    2 ? )
+  (    3 /XTAL1 )
+ )
+ ( /513BDE84 $noname  P14 PWR_HDR {Lib=CONN_4}
+  (    1 +3.3V )
+  (    2 +3.3V )
+  (    3 VCC )
+  (    4 VCC )
+ )
+ ( /5136B37B $noname  P13 Serial_No_PWR {Lib=CONN_4}
+  (    1 /TXD )
+  (    2 /RXD )
+  (    3 ? )
+  (    4 ? )
+ )
+ ( /51258C90 $noname  P11 CONN_3X2 {Lib=CONN_3X2}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+ )
+ ( /51258C88 $noname  P7 CONN_3X2 {Lib=CONN_3X2}
+  (    1 VCC )
+  (    2 GND )
+  (    3 VCC )
+  (    4 GND )
+  (    5 VCC )
+  (    6 GND )
+ )
+ ( /51258C64 $noname  P4 CONN_3X2 {Lib=CONN_3X2}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+ )
+ ( /51258C5E $noname  P3 CONN_3X2 {Lib=CONN_3X2}
+  (    1 VCC )
+  (    2 GND )
+  (    3 VCC )
+  (    4 GND )
+  (    5 VCC )
+  (    6 GND )
+ )
+ ( /5124242D $noname  R2 1K {Lib=R}
+  (    1 GND )
+  (    2 N-000045 )
+ )
+ ( /511D9A4A $noname  J1 JACK_2P {Lib=JACK_2P}
+  (    1 GND )
+  (    2 GND )
+  (    3 VPP )
+ )
+ ( /51186526 $noname  P10 ICSP_Prgrm {Lib=CONN_3X2}
+  (    1 /PB4 )
+  (    2 VCC )
+  (    3 /PB5 )
+  (    4 /PB3 )
+  (    5 /Reset )
+  (    6 GND )
+ )
+ ( /5117127E $noname  P5 PORT_D {Lib=CONN_6}
+  (    1 /PD2 )
+  (    2 /PD3 )
+  (    3 /PD4 )
+  (    4 /PD5 )
+  (    5 /PD6 )
+  (    6 /PD7 )
+ )
+ ( /5117121F $noname  P9 PORT_C {Lib=CONN_8}
+  (    1 /AVCC )
+  (    2 /AREF )
+  (    3 /PC0 )
+  (    4 /PC1 )
+  (    5 /PC2 )
+  (    6 /PC3 )
+  (    7 /PC4 )
+  (    8 /PC5 )
+ )
+ ( /51171175 $noname  P8 PORT_B {Lib=CONN_5}
+  (    1 /PB1 )
+  (    2 /PB2 )
+  (    3 /PB3 )
+  (    4 /PB4 )
+  (    5 /PB5 )
+ )
+ ( /5116F232 $noname  P1 Base/PWR {Lib=CONN_4}
+  (    1 +3.3V )
+  (    2 +3.3V )
+  (    3 VCC )
+  (    4 VCC )
+ )
+ ( /5116F1A9 $noname  P2 Serial {Lib=CONN_4}
+  (    1 /TXD )
+  (    2 /RXD )
+  (    3 GND )
+  (    4 VPP )
+ )
+ ( /5116E573 $noname  C1 .01uf {Lib=CSMALL}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /5116E1E3 $noname  C3 22pf {Lib=CSMALL}
+  (    1 /XTAL2 )
+  (    2 GND )
+ )
+ ( /5116E1E0 $noname  C2 22pf {Lib=CSMALL}
+  (    1 /XTAL1 )
+  (    2 GND )
+ )
+ ( /5116D890 $noname  Program1 DUAL_SWITCH_INV {Lib=DUAL_SWITCH_INV}
+  (    1 GND )
+  (    2 /Prgm )
+  (    3 ? )
+ )
+ ( /5116D77F $noname  R1 10K {Lib=R}
+  (    1 VCC )
+  (    2 /Reset )
+ )
+ ( /5116D630 $noname  SW1 Reset {Lib=SW_PUSH}
+  (    1 GND )
+  (    2 ? )
+ )
+ ( /5116D3EB DIL28  IC1 ATMEGA168PA-P {Lib=ATMEGA168PA-P}
+  (    1 /Reset )
+  (    2 /RXD )
+  (    3 /TXD )
+  (    4 /PD2 )
+  (    5 /PD3 )
+  (    6 /PD4 )
+  (    7 VCC )
+  (    8 GND )
+  (    9 /XTAL1 )
+  (   10 /XTAL2 )
+  (   11 /PD5 )
+  (   12 /PD6 )
+  (   13 /PD7 )
+  (   14 /Prgm )
+  (   15 /PB1 )
+  (   16 /PB2 )
+  (   17 /PB3 )
+  (   18 /PB4 )
+  (   19 /PB5 )
+  (   20 /AVCC )
+  (   21 /AREF )
+  (   22 GND )
+  (   23 /PC0 )
+  (   24 /PC1 )
+  (   25 /PC2 )
+  (   26 /PC3 )
+  (   27 /PC4 )
+  (   28 /PC5 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component IC1
+ 28DIP-ELL600
+ 28dip600
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "/PD2" "PD2"
+ P6 10
+ IC1 4
+ P5 1
+Net 2 "/PD3" "PD3"
+ IC1 5
+ P6 9
+ P5 2
+Net 3 "/PD4" "PD4"
+ IC1 6
+ P6 8
+ P5 3
+Net 4 "/PD5" "PD5"
+ IC1 11
+ P6 7
+ P5 4
+Net 5 "/PB4" "PB4"
+ P8 4
+ P10 1
+ IC1 18
+Net 6 "/PB5" "PB5"
+ IC1 19
+ P10 3
+ P8 5
+Net 7 "/Reset" "Reset"
+ R1 2
+ IC1 1
+ P10 5
+Net 8 "/PB3" "PB3"
+ P8 3
+ P10 4
+ IC1 17
+Net 9 "/AVCC" "AVCC"
+ P9 1
+ IC1 20
+Net 10 "/PD7" "PD7"
+ P6 4
+ IC1 13
+ P5 6
+Net 11 "/PD6" "PD6"
+ P5 5
+ P6 6
+ IC1 12
+Net 24 "/PC5" "PC5"
+ P9 8
+ IC1 28
+Net 25 "GND" "GND"
+ C1 2
+ P2 3
+ P10 6
+ C3 2
+ P6 5
+ P6 1
+ P12 1
+ P7 4
+ J1 1
+ R2 1
+ P3 6
+ P3 4
+ P3 2
+ P7 6
+ IC1 8
+ J1 2
+ Program1 1
+ SW1 1
+ IC1 22
+ C2 2
+ P7 2
+Net 26 "VCC" "VCC"
+ R1 1
+ P10 2
+ P3 1
+ P14 4
+ P7 3
+ P7 1
+ P3 5
+ P6 2
+ P14 3
+ P3 3
+ P7 5
+ P1 4
+ P1 3
+ C1 1
+ IC1 7
+Net 29 "/PB2" "PB2"
+ P8 2
+ IC1 16
+Net 30 "/PB1" "PB1"
+ P8 1
+ IC1 15
+Net 31 "/Prgm" "Prgm"
+ Program1 2
+ IC1 14
+Net 32 "+3.3V" "+3.3V"
+ P1 1
+ P1 2
+ P14 1
+ P14 2
+Net 33 "/PC0" "PC0"
+ P9 3
+ IC1 23
+Net 34 "/PC1" "PC1"
+ P9 4
+ IC1 24
+Net 35 "/PC2" "PC2"
+ P9 5
+ IC1 25
+Net 36 "/PC3" "PC3"
+ IC1 26
+ P9 6
+Net 37 "/PC4" "PC4"
+ IC1 27
+ P9 7
+Net 38 "/AREF" "AREF"
+ P9 2
+ IC1 21
+Net 39 "/XTAL1" "XTAL1"
+ K1 3
+ C2 1
+ IC1 9
+Net 40 "/XTAL2" "XTAL2"
+ C3 1
+ K1 1
+ IC1 10
+Net 41 "/RXD" "RXD"
+ P13 2
+ P2 2
+ IC1 2
+Net 42 "/TXD" "TXD"
+ IC1 3
+ P13 1
+ P2 1
+Net 43 "VPP" "VPP"
+ P2 4
+ J1 3
+Net 45 "" ""
+ R2 2
+ P6 3
+}
+#End

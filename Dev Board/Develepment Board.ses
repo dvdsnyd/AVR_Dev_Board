@@ -1,0 +1,686 @@
+
+(session "Develepment Board.ses"
+  (base_design "Develepment Board.dsn")
+  (placement
+    (resolution mil 10)
+    (component PIN_ARRAY_5x1
+      (place P8 66400 -35500 front 180)
+    )
+    (component pin_array_4x2
+      (place P1 47400 -45000 front 0)
+    )
+    (component PIN_ARRAY_4x1
+      (place P2 47400 -37500 front 180)
+    )
+    (component pin_array_3x2
+      (place P10 77100 -42000 front 270)
+      (place P7 53300 -32600 front 0)
+      (place P3 53400 -48000 front 180)
+      (place P4 71400 -48000 front 180)
+      (place P11 71400 -32500 front 180)
+    )
+    (component PIN_ARRAY_3X1_LP
+      (place Program1 71700 -37300 front 180)
+    )
+    (component PIN_ARRAY_3X1
+      (place J1 46900 -35000 front 180)
+    )
+    (component PIN_ARRAY_2X2
+      (place SW1 74000 -42800 front 90)
+    )
+    (component "PIN_ARRAY-8X1_LP"
+      (place P9 59900 -35500 front 180)
+    )
+    (component "PIN_ARRAY-6X1"
+      (place P5 68100 -44700 front 0)
+    )
+    (component "DIP-28__300"
+      (place IC1 61900 -38300 front 0)
+    )
+    (component Crystal_TH
+      (place X1 63800 -42500 front 90)
+    )
+    (component C1
+      (place C3 65700 -42200 front 270)
+      (place C2 62000 -42800 front 270)
+      (place C1 61600 -41000 front 0)
+    )
+    (component R3
+      (place R2 75200 -35800 front 270)
+      (place R1 71700 -35100 front 180)
+    )
+    (component "PIN_ARRAY-6X1-LP"
+      (place P12 79500 -37300 front 270)
+    )
+    (component PIN_ARRAY_4x1_LP
+      (place P6 79500 -43600 front 90)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution mil 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version "(2012-01-19 BZR 3256)-stable")
+    )
+    (library_out 
+      (padstack "Via[0-1]_35:25_mil"
+        (shape
+          (circle Front 350 0 0)
+        )
+        (shape
+          (circle Back 350 0 0)
+        )
+        (attach off)
+      )
+      (padstack "Via[0-1]_35:0_mil"
+        (shape
+          (circle Front 350 0 0)
+        )
+        (shape
+          (circle Back 350 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net GND
+        (wire
+          (path Back 250
+            53400 -48500
+            52400 -48500
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 250
+            79500 -34800
+            78797 -34800
+            78297 -34300
+            75200 -34300
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 250
+            46900 -35000
+            46900 -37500
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 250
+            54300 -32100
+            53300 -32100
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 250
+            53300 -32100
+            52300 -32100
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 250
+            79500 -34800
+            80355 -35655
+            80355 -37945
+            79500 -38800
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 250
+            46900 -35000
+            47900 -35000
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 250
+            53400 -48500
+            54400 -48500
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 250
+            62100 -41000
+            62100 -40100
+            62400 -39800
+          )
+          (type protect)
+        )
+      )
+      (net /AREF
+        (wire
+          (path Back 150
+            62400 -36800
+            62400 -35500
+          )
+          (type protect)
+        )
+      )
+      (net /AVCC
+        (wire
+          (path Back 150
+            63400 -36800
+            63400 -34920
+            63376 -34896
+            61796 -34896
+            61400 -35292
+            61400 -35500
+          )
+          (type protect)
+        )
+      )
+      (net /PB1
+        (wire
+          (path Back 150
+            68400 -36800
+            68400 -35500
+          )
+          (type protect)
+        )
+      )
+      (net /PB2
+        (wire
+          (path Back 150
+            67400 -36800
+            67400 -35500
+          )
+          (type protect)
+        )
+      )
+      (net /PB3
+        (wire
+          (path Back 150
+            66400 -36548
+            67411 -37559
+            68453 -37559
+            69316 -36696
+            73262 -36696
+            73401 -36835
+            73401 -41242
+            72177 -42466
+            72177 -43291
+            73001 -44115
+            77276 -44115
+            78188 -43203
+            78188 -42588
+            77600 -42000
+          )
+        )
+        (wire
+          (path Back 150
+            66400 -36548
+            66400 -35500
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 150
+            66400 -36800
+            66400 -36548
+          )
+          (type protect)
+        )
+      )
+      (net /PB4
+        (wire
+          (path Back 150
+            65400 -35500
+            66367 -34533
+            71529 -34533
+            73802 -36806
+            73802 -38202
+            76600 -41000
+          )
+        )
+        (wire
+          (path Back 150
+            65400 -36800
+            65400 -35500
+          )
+          (type protect)
+        )
+      )
+      (net /PB5
+        (wire
+          (path Back 150
+            64400 -36674
+            64400 -35500
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 150
+            64400 -36800
+            64400 -36674
+          )
+          (type protect)
+        )
+      )
+      (net /PC0
+        (wire
+          (path Back 150
+            60400 -36800
+            60400 -35500
+          )
+          (type protect)
+        )
+      )
+      (net /PC1
+        (wire
+          (path Back 150
+            59400 -36800
+            59400 -35500
+          )
+          (type protect)
+        )
+      )
+      (net /PC2
+        (wire
+          (path Back 150
+            58400 -36800
+            58400 -35500
+          )
+          (type protect)
+        )
+      )
+      (net /PC3
+        (wire
+          (path Back 150
+            57400 -36800
+            57400 -35500
+          )
+          (type protect)
+        )
+      )
+      (net /PC4
+        (wire
+          (path Back 150
+            56400 -36800
+            56400 -35500
+          )
+          (type protect)
+        )
+      )
+      (net /PC5
+        (wire
+          (path Back 150
+            55400 -36800
+            55400 -35500
+          )
+          (type protect)
+        )
+      )
+      (net /PD2
+        (wire
+          (path Back 150
+            65600 -45228
+            62432 -45228
+            58400 -41196
+            58400 -39800
+          )
+        )
+        (wire
+          (path Back 150
+            65600 -44700
+            65600 -45228
+          )
+        )
+      )
+      (net /PD3
+        (wire
+          (path Back 150
+            66600 -44700
+            66069 -44169
+            64723 -44169
+            64420 -44472
+            62106 -44472
+            59400 -41766
+            59400 -39800
+          )
+        )
+        (wire
+          (path Back 150
+            79500 -44100
+            79414 -44100
+            77556 -45958
+            67858 -45958
+            66600 -44700
+          )
+        )
+      )
+      (net /PD4
+        (wire
+          (path Back 150
+            79500 -43100
+            77051 -45549
+            68449 -45549
+            67600 -44700
+          )
+        )
+      )
+      (net /PD5
+        (wire
+          (path Back 150
+            68600 -44700
+            69145 -45245
+            76903 -45245
+            78890 -43258
+            78890 -42710
+            79500 -42100
+          )
+        )
+        (wire
+          (path Back 150
+            65400 -39800
+            65400 -40000
+            68600 -43200
+            68600 -44700
+          )
+          (type protect)
+        )
+      )
+      (net /PD6
+        (wire
+          (path Back 150
+            69600 -44512
+            69600 -44700
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 150
+            66400 -39800
+            66400 -40100
+            69600 -43300
+            69600 -44512
+          )
+          (type protect)
+        )
+      )
+      (net /PD7
+        (wire
+          (path Back 150
+            70600 -44115
+            70600 -44700
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 150
+            67400 -39800
+            67400 -39900
+            70600 -43100
+            70600 -44115
+          )
+          (type protect)
+        )
+      )
+      (net /Prgm
+        (wire
+          (path Back 150
+            68400 -39800
+            69200 -39800
+            71700 -37300
+          )
+        )
+      )
+      (net /RXD
+        (wire
+          (path Back 150
+            56400 -39800
+            55458 -38858
+            49258 -38858
+            47900 -37500
+          )
+        )
+      )
+      (net /Reset
+        (wire
+          (path Back 150
+            76600 -43000
+            75328 -43000
+            75028 -43300
+          )
+        )
+        (wire
+          (path Back 150
+            74500 -43300
+            75028 -43300
+          )
+        )
+      )
+      (net /TXD
+        (wire
+          (path Back 150
+            48900 -37500
+            49428 -37500
+          )
+        )
+        (wire
+          (path Back 150
+            49428 -37500
+            50417 -38489
+            56089 -38489
+            57400 -39800
+          )
+        )
+      )
+      (net /XTAL1
+        (wire
+          (path Back 150
+            63400 -39800
+            63400 -41100
+            63800 -41500
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 150
+            62000 -42300
+            63200 -42300
+            63800 -41700
+            63800 -41500
+          )
+          (type protect)
+        )
+      )
+      (net /XTAL2
+        (wire
+          (path Back 150
+            64800 -41300
+            64800 -42500
+            63800 -43500
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 150
+            65700 -41700
+            65200 -41700
+            64800 -41300
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 150
+            64400 -39800
+            64400 -40400
+            64800 -40800
+            64800 -41300
+          )
+          (type protect)
+        )
+      )
+      (net "N-000042"
+        (wire
+          (path Back 150
+            79500 -36800
+            75700 -36800
+            75200 -37300
+          )
+          (type protect)
+        )
+      )
+      (net VCC
+        (wire
+          (path Back 250
+            52300 -34421
+            52300 -33100
+          )
+        )
+        (wire
+          (path Back 250
+            61400 -39800
+            59735 -38135
+            54817 -38135
+            52300 -35618
+            52300 -34421
+          )
+        )
+        (wire
+          (path Back 250
+            45900 -35234
+            45900 -35183
+            46662 -34421
+            52300 -34421
+          )
+        )
+        (wire
+          (path Back 250
+            45900 -35234
+            45900 -35000
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 250
+            45900 -37500
+            45900 -35234
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 250
+            45900 -37500
+            52573 -44173
+            52573 -47500
+          )
+        )
+        (wire
+          (path Back 250
+            53057 -47500
+            53400 -47500
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 250
+            52713 -47500
+            53057 -47500
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 250
+            53057 -47500
+            53400 -47500
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 250
+            52713 -47500
+            53057 -47500
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 250
+            61100 -41000
+            61100 -40100
+            61400 -39800
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 250
+            53400 -47500
+            54400 -47500
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 250
+            74264 -35800
+            73900 -35800
+            73200 -35100
+          )
+        )
+        (wire
+          (path Back 250
+            79500 -35800
+            74264 -35800
+          )
+        )
+        (wire
+          (path Back 250
+            74264 -35800
+            74264 -37664
+            77600 -41000
+          )
+        )
+        (wire
+          (path Back 250
+            53800 -33100
+            54879 -34179
+            72279 -34179
+            73200 -35100
+          )
+        )
+        (wire
+          (path Back 250
+            53800 -33100
+            53300 -33100
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 250
+            54300 -33100
+            53800 -33100
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 250
+            52573 -47500
+            52713 -47500
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 250
+            52400 -47500
+            52573 -47500
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 250
+            53300 -33100
+            52300 -33100
+          )
+          (type protect)
+        )
+      )
+    )
+  )
+)

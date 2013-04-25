@@ -1,0 +1,88 @@
+# EESchema Netlist Version 1.1 created  3/13/2013 8:32:19 PM
+(
+ ( /513D3343 $noname  C4 CP1 {Lib=CP1}
+  (    1 +3.3V )
+  (    2 GND )
+ )
+ ( /513D3341 $noname  C3 CP1 {Lib=CP1}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /513D333F $noname  C2 CP1 {Lib=CP1}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( /513D332E $noname  C1 CP1 {Lib=CP1}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /513D3173 $noname  P2 CONN_4 {Lib=CONN_4}
+  (    1 +3.3V )
+  (    2 +3.3V )
+  (    3 +5V )
+  (    4 +5V )
+ )
+ ( /513D316B $noname  P1 CONN_4 {Lib=CONN_4}
+  (    1 ? )
+  (    2 ? )
+  (    3 GND )
+  (    4 VCC )
+ )
+ ( /513D2C91 $noname  U1 7805 {Lib=7805}
+  (  GND GND )
+  (   VI VCC )
+  (   VO +5V )
+ )
+ ( /513D2C8D $noname  U2 LM1117 {Lib=LM1117}
+  (  GND GND )
+  (   VI VCC )
+  (   VO +3.3V )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C4
+ CP*
+ SM*
+$endlist
+$component C3
+ CP*
+ SM*
+$endlist
+$component C2
+ CP*
+ SM*
+$endlist
+$component C1
+ CP*
+ SM*
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "VCC" "VCC"
+ U2 VI
+ U1 VI
+ P1 4
+ C1 1
+ C3 1
+Net 2 "+5V" "+5V"
+ C2 1
+ P2 4
+ P2 3
+ U1 VO
+Net 5 "GND" "GND"
+ C4 2
+ U1 GND
+ C3 2
+ U2 GND
+ C2 2
+ C1 2
+ P1 3
+Net 6 "+3.3V" "+3.3V"
+ C4 1
+ P2 1
+ P2 2
+ U2 VO
+}
+#End

@@ -1,1 +1,1 @@
-sdfsdfsdfsdfsdfsdf
+Development board for AVR ATmega 168/328 DIP packages. Board neatly nestles bewteen one or two breadboards.
